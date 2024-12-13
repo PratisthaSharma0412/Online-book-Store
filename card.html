@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page - Online Book Store</title>
+    <link rel="stylesheet" href="Style/style2.css">
+</head>
+<body>
+    <div class="cart-container">
+        <h1>SHOPPING CART<hr></h1>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Book</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>JavaScript for Beginners</td>
+                    <td>Rs:500</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>Rs:500</td>
+                    <td><button class="remove-btn">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Learning Python</td>
+                    <td>Rs:200</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>Rs:200</td>
+                    <td><button class="remove-btn">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>HTML and CSS</td>
+                    <td>Rs:100</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>Rs:100</td>
+                    <td><button class="remove-btn">Remove</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="cart-total">
+            <p>Total Rs:800</p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
